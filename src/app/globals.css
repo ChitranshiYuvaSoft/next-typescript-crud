@@ -25,3 +25,22 @@ body {
     text-wrap: balance;
   }
 }
+
+.toast{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.deleteButton{
+  background-color: maroon;
+  color: white;
+  padding: 1vh;
+  border-radius: 1vh;
+  margin-left: 1.3vw;
+  border: 1px solid black;
+}
+
+.dismissButton{
+  border: 1px solid gray;
+  padding: 1vh;
+  border-radius: 1vh;
+}
