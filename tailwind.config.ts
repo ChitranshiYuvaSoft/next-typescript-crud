@@ -16,6 +16,7 @@ const config: Config = {
       },
       boxShadow: {
         '3xl': '0px 0px 2vh black',
+        "white" : "0px 0px 2vh black"
       }
     },
   },

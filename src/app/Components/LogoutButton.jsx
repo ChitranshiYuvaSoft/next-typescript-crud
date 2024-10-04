@@ -44,7 +44,7 @@ const LogoutButton = () => {
     <div>
       <button
         className="text-white bg-red-700 hover:bg-red-800 
-            focus:ring-2 focus:ring-red-300 font-medium rounded-lg 
+            focus:ring-2 focus:ring-red-300 font-medium rounded-3xl 
             text-sm px-5 py-2.5 h-10 dark:bg-red-600 dark:hover:bg-blue-700 
             focus:outline-none shadow-3xl"
         onClick={() => {

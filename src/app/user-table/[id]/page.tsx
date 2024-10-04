@@ -6,8 +6,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { ImHome } from "react-icons/im";
 import Link from "next/link";
 import LogoutButton from "../../Components/LogoutButton"
-import { isAuth } from "../../Auth/isAuth";
 import { editUserData } from "@/lib/features/dataSlice";
+import { isAuth } from "@/app/Auth/isAuth";
 
 
 const EditUser = () => {

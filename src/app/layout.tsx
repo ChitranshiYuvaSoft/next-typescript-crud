@@ -4,6 +4,8 @@ import StoreProvider from "./storeProvider";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import React from "react";
+// import { SessionProvider } from "next-auth/react";
+// import AuthProvider from "./nextAuth-session-provider";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -31,11 +33,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Toaster position="top-right" containerClassName="toast" />
-
-        <StoreProvider>
-          {children}
-        </StoreProvider>
-        
+        <StoreProvider>{children}</StoreProvider>
+        {/* <AuthProvider>
+         {children}
+        </AuthProvider> */}
       </body>
     </html>
   );

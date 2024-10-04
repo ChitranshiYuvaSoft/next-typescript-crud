@@ -44,3 +44,11 @@ body {
   padding: 1vh;
   border-radius: 1vh;
 }
+
+.row-radius{
+  height: 7vh;
+  border-radius: 5vh;
+  outline: 1px solid gray;
+  margin-top: 2vh !important;
+}
+
