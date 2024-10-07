@@ -13,7 +13,6 @@ const UserList = () => {
   const { userData } = useSelector((state: any) => state.data);
   const router = useRouter();
   const dispatch = useDispatch();
-  console.log(userData)
 
   const handleEditUser = (item: any, index: number) => {
     dispatch(updateUser(item));
